@@ -1,0 +1,18 @@
+/*Animaciones para el html*/
+
+@Keyframes animationHeader { 
+0%{ background-image: url(../img/anim.png); }
+50% { background-image: url(../img/anim2.png); }
+75% { background-image: url(../img/anim3.png); }
+100% { background-image: url(../img/anim4.png); }
+
+ }
+
+header { height: 40vh; 
+		background-size: cover;
+		background-position: 20%;
+		animation-name: animationHeader;
+		animation-iteration-count: infinite;
+		animation-duration: 8s;
+
+	}
